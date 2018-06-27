@@ -24,9 +24,9 @@ var to = parseInt(prompt("Enter the higher bound"));
 //Math.random() returns decimals, used Math.round to get whole number
 var target = Math.round(Math.random() * (to-from) + from);
 
-    var currentGuess = parseInt(prompt("Guess a number between " + from + " and " + to));
+var currentGuess = parseInt(prompt("Guess a number between " + from + " and " + to));
 
-    var totalGuesses = 1; 
+var totalGuesses = 1; 
     
 //makes sure that the NUMBER guessed is within "from" and "to"
 //makes sure a number is typed in
@@ -37,13 +37,13 @@ while(currentGuess<from || currentGuess>to || isNaN(currentGuess)){
 //loop until user guesses correct number
 while(currentGuess != target){
     if (currentGuess < target){
-    currentGuess = parseInt(prompt("Enter a higher number"));
-    totalGuesses++;
-    }   
+        currentGuess = parseInt(prompt("Enter a higher number"));
+        totalGuesses++;
+        }   
     else if (currentGuess > target){
-    currentGuess = parseInt(prompt("Enter a lower number"));
-    totalGuesses++;
-    }   
+        currentGuess = parseInt(prompt("Enter a lower number"));
+        totalGuesses++;
+        }   
 }
     
 alert("It took " + totalGuesses + " tries to guess the correct number.");
