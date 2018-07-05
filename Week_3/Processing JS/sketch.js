@@ -19,7 +19,7 @@ function Ball(x,y,diameter, color, xSpeed, ySpeed){
 }
 
 function randomNumberOfBalls(){
-    amountOfBalls = random([2,5,9,16]); //randomly chooses from array so that only 2, 5, 10, or 16 balls show up
+    amountOfBalls = random([2,5,9,16]); //randomly chooses from array so that only 2, 5, 9, or 16 balls show up
     var ballList = [];
     for(var i = 0; i<amountOfBalls; i++){
         ballList.push(addRandomBall());
