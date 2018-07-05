@@ -122,6 +122,7 @@ function collisionReaction (){
         } 
     }
 }
+<<<<<<< HEAD:Week_3/JS Processing/sketch.js
 
 //setup is run once at the beginning before we draw
 function setup() {
@@ -146,3 +147,5 @@ function draw() {
     bounceWithinCanvas();
     collisionReaction();
 }
+=======
+>>>>>>> 986f6ad894266b82e25c40f7909a9e70f7086bf8:Week_3/Processing JS/sketch.js
