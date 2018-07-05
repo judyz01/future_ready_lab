@@ -127,7 +127,7 @@ function draw() {
                     lowBall = ballList[j];
                 }
                 
-                //Allows higher ball to go up, lower ball to go down to make it seem as if tehy're bouncing off of each other
+                //Allows higher ball to go up, lower ball to go down to make it seem as if they're bouncing off of each other
                 if(highBall.ySpeed < 0){
                     highBall.ySpeed = -highBall.ySpeed;
                 }
